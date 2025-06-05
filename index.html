@@ -1,125 +1,199 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Portfolio de Aimar Esqueta</title>
-  <link rel="stylesheet" href="styles.css" />
-  <script defer src="main.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aimar Esqueta | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body data-theme="light">
-  <header class="hero">
-    <div class="container">
-      <h1>Hola, soy Aimar Esqueta👋</h1>
-      <p class="subtitle">Desarrollador de Software y apasionado de la IA y el Big Data</p>
-      <nav class="main-nav">
-        <ul class="nav-menu">
-          <li><a href="#about">Sobre mí</a></li>
-          <li><a href="#skills">Tecnologías</a></li>
-          <li><a href="#experience">Experiencia</a></li>
-          <li><a href="#projects">Proyectos</a></li>
-          <li><a href="#contact">Contacto</a></li>
-        </ul>
-      </nav>
-      <div class="social-links">
-        <a href="https://github.com/DevAimar8" target="_blank" rel="noopener noreferrer">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="24" alt="GitHub"> GitHub
+<body>
+  <nav id="navbar">
+    <ul>
+      <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+      <li><a href="#sobre-mi" class="nav-link">Sobre Mí</a></li>
+      <li><a href="#trayectoria" class="nav-link">Trayectoria</a></li>
+      <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+      <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+      <li><a href="#contacto" class="nav-link">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <header id="inicio">
+    <div class="background-animation"></div>
+    <div class="header-content">
+      <img src="assets/aimar-foto.jpg" alt="Aimar Esqueta" class="profile-photo">
+      <h1>Aimar Esqueta Albert</h1>
+      <p>Desarrollador de aplicaciones multiplataforma especializado en Big Data e Inteligencia Artificial.</p>
+      <div class="buttons">
+        <button class="btn available">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg>
+          Disponible
+        </button>
+        <a href="assets/CV Aimar Esqueta Albert.pdf" download class="btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 16l4-5h-3V4h-2v7H8l4 5zm-8 4h16v2H4v-2z"/></svg>
+          Descargar CV
         </a>
-        <a href="https://www.linkedin.com/in/aimar-esqueta-albert-a0a33b302/" target="_blank" rel="noopener noreferrer">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="24" alt="LinkedIn"> LinkedIn
+        <a href="mailto:aimaresquetaalbert@gmail.com" class="btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2 4h20v16H2V4zm18 2l-8 5-8-5v12h16V6z"/></svg>
+          Contáctame
         </a>
       </div>
-    </div>
-    <div class="cv-button">
-      <a href="CV Aimar Esqueta Albert.pdf" download class="btn-cv">Descargar CV</a>
     </div>
   </header>
 
-  <main>
-    <section id="about" class="about container will-fade">
-      <h2>Sobre mí</h2>
-      <p>
-        Soy un desarrollador entusiasta especializado en Java, Flutter y Python. Actualmente me estoy formando en Big Data e Inteligencia Artificial. Me encanta crear proyectos que combinan tecnología y propósito real.
-      </p>
-    </section>
+  <section id="sobre-mi">
+    <h2>Sobre Mí</h2>
+    <p>
+      Soy Aimar Esqueta Albert, desarrollador de aplicaciones multiplataforma con formación en Big Data e Inteligencia Artificial. Apasionado por la creación de soluciones que transforman datos en decisiones reales y con impacto.
+    </p>
+  </section>
 
-    <section id="skills" class="skills container will-fade">
-      <h2>🔧 Tecnologías</h2>
-      <ul class="tech-list">
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="24"> Java</li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" width="24"> Flutter</li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" width="24"> Dart</li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="24"> Python</li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="24"> Firebase</li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="24"> HTML</li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="24"> CSS</li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="24"> JavaScript</li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="24"> MySQL</li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="24"> SQLite</li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="24"> Git</li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="24"> GitHub</li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="24"> Docker</li>
-        <li><img src="https://img.icons8.com/ios-filled/24/000000/csv.png" width="24"> CSV</li>
-        <li><img src="https://huggingface.co/front/assets/huggingface_logo.svg" width="24"> HuggingFace</li>
-        <li><img src="https://img.icons8.com/color/24/000000/power-bi.png" width="24"> Power BI</li>
-      </ul>
-    </section>
-
-    <section id="experience" class="experience container will-fade">
-      <h2>Experiencia Laboral</h2>
-      <div class="job-block">
-        <div class="job-header">
-          <h3>Programador Full-Stack – Coanfi</h3>
-          <span>(2025 - Prácticas)</span>
-        </div>
-        <p>
-          → Desarrollo de apps internas con  PowerApps para mejorar la productividad empresarial.<br>
-          → Visualización y análisis de grandes volúmenes de datos utilizando Power BI y SQL Server Management Studio.<br>
-          → Creación y mantenimiento de procedimientos almacenados para optimizar el rendimiento de consultas complejas en bases de datos.<br>
-          → Automatización de tareas rutinarias mediante scripts en JavaScript y estructuras en JSON.<br>
-          → Diseño de flujos de trabajo eficientes mediante diagramas BPMN en BIC Process Design.<br>
-          → Participación activa en la optimización de procesos empresariales mediante soluciones low-code y análisis de datos.
-        </p>
+  <!-- Mi Trayectoria - Línea de Tiempo -->
+<section id="trayectoria">
+  <h2>Mi Trayectoria</h2>
+  <div class="timeline">
+    
+    <div class="timeline-item">
+      <div class="timeline-icon">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="estudios">
       </div>
-    </section>
-
-    <section id="projects" class="projects container will-fade">
-      <h2>Proyectos destacados</h2>
-      <div class="project-grid">
-        <div class="project-card">
-          <img src="https://raw.githubusercontent.com/DevAimar8/UNIP/main/UNIP.png" alt="UNIP">
-          <h3>UNIP</h3>
-          <p>App Flutter para orientación vocacional. Test interactivo, buscador y comunidad.</p>
-          <a href="https://github.com/DevAimar8/UNIP" target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
-        </div>
-        <div class="project-card">
-          <img src="https://raw.githubusercontent.com/DevAimar8/VisualizadorPersonajes-OnePiece/main/onepiece.png" alt="One Piece Viewer">
-          <h3>Visualizador One Piece</h3>
-          <p>Visualización interactiva de personajes de One Piece.</p>
-          <a href="https://github.com/DevAimar8/VisualizadorPersonajes-OnePiece" target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
-        </div>
-        <div class="project-card">
-          <img src="https://raw.githubusercontent.com/DevAimar8/VAARI/main/VAARI.png" alt="VAARI">
-          <h3>VAARI</h3>
-          <p>App web de control de ancianos en centros de día y residencias de ancianos con un asistente técnico</p>
-          <a href="https://github.com/DevAimar8/VAARI" target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
-        </div>
+      <div class="timeline-content">
+        <h3>DAM en MEDAC</h3>
+        <span>2023 - 2025</span>
+        <p>Grado Superior en Desarrollo de Aplicaciones Multiplataforma.</p>
       </div>
-    </section>
-
-    <section id="contact" class="contact container will-fade">
-      <h2>Contacto</h2>
-      <p>¿Tienes un proyecto o colaboración en mente? ¡Estoy disponible!</p>
-      <p>Escríbeme a <a href="mailto:aimar.dev8@gmail.com">aimaresquetaalbert@gmail.com</a></p>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="container">
-      <p class="footer-quote">“La creatividad es la inteligencia divirtiéndose.”</p>
-      <p>Desarrollado por Aimar Esqueta © 2025</p>
     </div>
+
+    <div class="timeline-item">
+      <div class="timeline-icon">
+        <img src="https://cdn-icons-png.flaticon.com/512/2942/2942833.png" alt="empresa">
+      </div>
+      <div class="timeline-content">
+        <h3>Prácticas en COANFI</h3>
+        <span>2025</span>
+        <p>Colaboré en el desarrollo de herramientas con PowerApps y Copilot Studio para la gestión documental, automatización de procesos, seguimientos de poryectos con PowerBI y análisis de grandes volúmenes de datos.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-icon">
+        <img src="https://cdn-icons-png.flaticon.com/512/3004/3004613.png" alt="proyecto">
+      </div>
+      <div class="timeline-content">
+        <h3>Proyecto Académico: UNIP</h3>
+        <span>2025</span>
+        <p>UNIP es una aplicación móvil desarrollada con FlutterFlow que ayuda a los usuarios a encontrar titulaciones universitarias o programas de formación profesional avanzados adecuados mediante pruebas psicológicas y recomendaciones personalizadas.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-icon">
+        <img src="https://cdn-icons-png.flaticon.com/512/3405/3405809.png" alt="máster">
+      </div>
+      <div class="timeline-content">
+        <h3>Máster en Big Data e IA - MEDAC</h3>
+        <span>2025</span>
+        <p>Formación especializada en Inteligencia Artificial, Machine Learning y análisis de datos.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+  <section id="proyectos">
+    <h2>Proyectos Destacados</h2>
+    <div class="proyectos-grid">
+      <div class="proyecto">
+        <img src="assets/IMG_0906.PNG" alt="UNIP">
+        <h3>UNIP</h3>
+        <p>UNIP es una aplicación móvil desarrollada con FlutterFlow que ayuda a los usuarios a encontrar titulaciones universitarias o programas de formación profesional avanzados adecuados mediante pruebas psicológicas y recomendaciones personalizadas.</p>
+        <a href="https://github.com/DevAimar8/UNIP" target="_blank">Ver en GitHub</a>
+      </div>
+      <div class="proyecto">
+        <img src="assets/PNG.png" alt="VAARI">
+        <h3>VAARI</h3>
+        <p>VAARI es una aplicación web desarrollada en Java con Eclipse, diseñada para gestionar registros de entrada y salida, horarios y seguimiento de medicación en centros y residencias de ancianos. Se conecta a una base de datos MySQL Workbench y fue mi primer proyecto web completo en Java.</p>
+        <a href="https://github.com/DevAimar8/VAARI" target="_blank">Ver en GitHub</a>
+      </div>
+      <div class="proyecto">
+        <img src="assets/onepiece.png" alt="One Piece App">
+        <h3>Visualizador de Personajes - One Piece</h3>
+        <p>Una aplicación interactiva que muestra personajes del anime One Piece. Ofrece una interfaz visualmente atractiva para explorar y aprender sobre diversos personajes, lo que la hace perfecta tanto para fans como para desarrolladores que practican el diseño de UI y el manejo de datos en Flutter.</p>
+        <a href="https://github.com/DevAimar8/VisualizadorPersonajes-OnePiece" target="_blank">Ver en GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="habilidades">
+    <h2>Tecnologías y Habilidades</h2>
+    <div class="habilidades-grid">
+  <div class="habilidad"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"><p>Java</p></div>
+  <div class="habilidad"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"><p>Python</p></div>
+  <div class="habilidad"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"><p>JavaScript</p></div>
+  <div class="habilidad"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter"><p>Flutter</p></div>
+  <div class="habilidad"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase"><p>Firebase</p></div>
+  <div class="habilidad"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" alt="Power BI"><p>Power BI</p></div>
+  <div class="habilidad"><img src="https://cdn-icons-png.flaticon.com/512/906/906175.png" alt="Copilot Studio"><p>Copilot Studio</p></div>
+  <div class="habilidad"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker"><p>Docker</p></div>
+  <div class="habilidad"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB"><p>MongoDB</p></div>
+  <div class="habilidad"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"><p>Git</p></div>
+  <div class="habilidad"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5"><p>HTML5</p></div>
+  <div class="habilidad"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3"><p>CSS3</p></div>
+  <div class="habilidad"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux"><p>Linux</p></div>
+  <div class="habilidad"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" alt="Kotlin"><p>Kotlin</p></div>
+  <div class="habilidad"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub"><p>GitHub</p></div>
+  <div class="habilidad"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" alt="SQLite"><p>SQLite</p></div>
+</div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <div class="contact-card">
+      <p><strong>Nombre:</strong> Aimar Esqueta Albert</p>
+      <p><strong>Ubicación:</strong> Zaragoza, España</p>
+      <p><strong>Email:</strong> <a href="mailto:aimaresquetaalbert@gmail.com">aimaresquetaalbert@gmail.com</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/aimar-esqueta-albert-a0a33b302/" target="_blank">Perfil profesional</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/DevAimar8" target="_blank">@DevAimar8</a></p>
+    </div>
+  </section>
+
+  <p style="text-align:center; font-style:italic; color:#777; margin: 40px 0;">“La creatividad es la inteligencia divirtiéndose.”</p>
+
+  <footer>
+    <a href="https://www.linkedin.com/in/aimar-esqueta-albert-a0a33b302/" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn">
+    </a>
+    <a href="mailto:aimaresquetaalbert@gmail.com">
+      <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" style="width: 30px;">
+    </a>
+    <a href="https://github.com/DevAimar8" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+    </a>
+    <p style="margin-top: 10px; font-size: 0.9rem; color: #888;">© Creado por DevAimar8 en 2025</p>
   </footer>
 
+  <button id="scrollTopBtn" class="btn" style="position: fixed; bottom: 30px; right: 30px; display: none; border-radius: 50%; width: 50px; height: 50px; padding: 0; font-size: 1.5rem; justify-content: center; align-items: center; box-shadow: 0 0 15px #00ff88; background: #00ff88; color: #000; transition: transform 0.3s;"
+    ⬆ Subir
+  </button>
+
+  
+
+  <script>
+    const scrollBtn = document.getElementById('scrollTopBtn');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        scrollBtn.style.display = 'flex';
+        scrollBtn.style.transform = 'scale(1)';
+      } else {
+        scrollBtn.style.display = 'none';
+      }
+    });
+    scrollBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+  </script>
+  <script src="script.js"></script>
 </body>
 </html>
