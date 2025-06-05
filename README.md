@@ -46,13 +46,6 @@ Esta plantilla nace con la idea de facilitar a estudiantes, autodidactas y desar
 
 ---
 
-## 📸 Captura previa
-
-![image](https://github.com/user-attachments/assets/340d5e59-6937-46f9-9819-4b47a69e1b7c)
-![image](https://github.com/user-attachments/assets/eb360cc5-241e-4932-847b-b501698a5339)
-
----
-
 ## 👨‍💻 Sobre el autor
 Desarrollado por Aimar Esqueta Albert como proyecto personal y recurso abierto para otros desarrolladores.
 
