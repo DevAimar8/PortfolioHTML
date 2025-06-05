@@ -331,3 +331,27 @@ section h2 {
     grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
   }
 }
+.cv-button {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-cv {
+  background-color: var(--color-secondary);
+  color: #000;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius);
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: background-color var(--transition), transform var(--transition), box-shadow var(--transition);
+  box-shadow: var(--shadow);
+  display: inline-block;
+}
+
+.btn-cv:hover {
+  background-color: #059669;
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.4);
+}
