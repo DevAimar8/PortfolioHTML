@@ -23,11 +23,9 @@ Esta plantilla nace con la idea de facilitar a estudiantes, autodidactas y desar
 
 ## 📁 Estructura del proyecto
 
-```bash
-📦 portfolio/
-├── index.html      # Página principal del portfolio
-├── styles.css      # Estilos visuales del sitio
-└── main.js         # Funcionalidades interactivas básicas
+- **index.html**       Página principal del portfolio
+- **styles.css**       Estilos visuales del sitio
+- **main.js**          Funcionalidades interactivas básicas
 
 ---
 
@@ -43,6 +41,7 @@ Esta plantilla nace con la idea de facilitar a estudiantes, autodidactas y desar
   - Proyectos
   - Tecnologías
   - Contacto
+  - Experiencia
   - Enlaces a redes sociales
 
 ---
@@ -51,16 +50,6 @@ Esta plantilla nace con la idea de facilitar a estudiantes, autodidactas y desar
 
 ![image](https://github.com/user-attachments/assets/340d5e59-6937-46f9-9819-4b47a69e1b7c)
 ![image](https://github.com/user-attachments/assets/eb360cc5-241e-4932-847b-b501698a5339)
-
----
-
-## ✍️ Cómo usar esta plantilla
-
-1. Clona o descarga este repositorio:
-
-```bash
-git clone https://github.com/DevAimar8/PortfolioHTML.git
-
 
 ---
 
@@ -76,3 +65,13 @@ Puedes usarlo, modificarlo y distribuirlo libremente, siempre mencionando al aut
 
 ## ⭐ ¿Te ha sido útil?
 Si esta plantilla te ayudó a crear tu portfolio, no olvides dejar una ⭐ y compartirla con otros desarrolladores junior.
+
+---
+
+## ✍️ Cómo usar esta plantilla
+
+1. Clona o descarga este repositorio:
+
+```bash
+git clone https://github.com/DevAimar8/PortfolioHTML.git
+
